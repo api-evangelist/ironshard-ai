@@ -1,4 +1,4 @@
-# ironshard-ai
+# IronShard
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,101 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ironshard-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://ironshard.ai/
+IronShard provides governed S3-compatible storage tailored for AI agents, enabling secure, copy‑on‑write bucket branches that agents can access via the Managed Compute Protocol (MCP). Their platform offers per‑agent access control, automatic snapshots, and a zero‑credit‑card free tier, positioning it as a storage solution for autonomous AI workloads. The service includes detailed audit logs, compliance controls, and integration guides for popular LLMs, aiming to simplify data management for agentic applications.
+
+**Areas:** Storage · AI · Cloud · S3 · MCP
+
+## IronShard on APIs.io
+
+Everything profiled for IronShard is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ironshard-ai/](https://apis.io/providers/ironshard-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [IronShard API](https://apis.io/apis/ironshard-ai/api/) — Governed S3-compatible storage API for AI agents
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [IronShard Authentication](https://apis.io/security/ironshard-ai/ironshard-ai-authentication/)
+- [IronShard Domain Security](https://apis.io/security/ironshard-ai/ironshard-ai-domain-security/)
+- [IronShard Trust Center](https://apis.io/security/ironshard-ai/ironshard-ai-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [IronShard Plans Pricing](https://apis.io/plans/ironshard-ai/ironshard-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ironshard.ai/)
+- [Documentation](https://www.ironshard.ai/docs)
+- [Getting started](https://www.ironshard.ai/docs/s3-quickstart)
+- [Pricing](https://www.ironshard.ai/pricing)
+- [Compliance](https://www.ironshard.ai/trust-center)
+- [Terms of service](https://www.ironshard.ai/legal/terms)
+- [Privacy policy](https://www.ironshard.ai/legal/privacy)
+- [GitHub](https://github.com/IronShardAI)
+
+## API Evangelist rating
+
+**Kin Score 31.7** — thin · rubric 0.27.0 · scored 2026-11-12
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.3 |
+| Contract quality | 0.0 |
+| Contract governance | 16.4 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 66.3 |
+
+**Agent readiness 8.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ironshard-ai/](https://apis.io/providers/ironshard-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for IronShard: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ironshard-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
